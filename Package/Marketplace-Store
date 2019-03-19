@@ -1,0 +1,68 @@
+{
+    "key": "aplikasi",
+    "name": "Github.com",
+    "description": "An example app for Android",
+    "vendor": {
+        "name": "GithubApp",
+        "url": " https://github.com/BuatApkOlshop },
+    "baseUrl": " https://github.com/BuatApkOlshop",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed",
+        "uninstalled": "/uninstalled"
+    },
+    "modules": {
+        "oauthConsumer": {
+            "clientId": "{{consumerKey}}"
+        },
+        "webhooks": [
+            {
+                "event": "*",
+                "url": "/webhook"
+            }
+        ],
+        "webItems": [
+            {
+                "url": " https://github.com/BuatApkOlshop?repoPath={repo_path}",
+                "name": {
+                    "value": "Aplikasi Web Item"
+                },
+                "location": "org.bitbucket.repository.navigation",
+                "key": GithubApp-web-item",
+                "params": {
+                    "auiIcon": "aui-iconfont-link"
+                }
+            }
+        ],
+        "repoPages": [
+            {
+                "url": "/connect-bbusines77?repoPath={repo_path}",
+                "name": {
+                    "value": "readme.md Page"
+                },
+                "location": "org.bitbucket.repository.navigation",
+                "key": "readme.md-repo-page",
+                "params": {
+                    "auiIcon": "aui-iconfont-doc"
+                }
+            }
+        ],
+        "webPanels": [
+            {
+                "url": "/connect-bbusines77?repoPath={repo_path}",
+                "name": {
+                    "value": "readme.md Web Panel"
+                },
+                "location": "com.Github.repository.overview.informationPanel",
+                "key": "aplikasi-web-panel"
+            }
+        ]
+    },
+    "scopes": ["account", "repository"],
+    "contexts": ["account"]
+}
+
+
+
