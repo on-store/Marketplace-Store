@@ -1,0 +1,20 @@
+ Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
+       [
+  {
+    "login": "github",
+    "id": 1,
+    "node_id": "8e5d5fb25d3dafaedab26a2920a0be39e990f062=",
+    "url": "https://api.github.com/orgs/github",
+    "repos_url": "https://api.github.com/orgs/github/repos",
+    "events_url": "https://api.github.com/orgs/github/events",
+    "hooks_url": "https://api.github.com/orgs/github/hooks",
+    "issues_url": "https://api.github.com/orgs/github/issues",
+    "members_url": "https://api.github.com/orgs/github/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/github/public_members{/member}",
+    "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+    "description": "A great organization"
+  }
+]
