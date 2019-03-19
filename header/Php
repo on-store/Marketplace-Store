@@ -1,0 +1,17 @@
+Cache-Control: no-cache
+Content-Length: 8980
+Content-Security-Policy: default-src &#39;none&#39;; base-uri &#39;self&#39;; connect-src &#39;self&#39;; form-action &#39;self&#39;; img-src &#39;self&#39; data:; script-src &#39;self&#39;; style-src &#39;unsafe-inline&#39;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 19 Mar 2019 16:00:29 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Set-Cookie: has_recent_activity=1; path=/; expires=Tue, 19 Mar 2019 17:00:29 -0000, _gh_sess=MFp5MVRaOFZwVkwvRURuRGZFKzdXSDVub1BwR1h3VzVycXZKZG1CRDJqWHYvRTdPWDN3dm1sRS9FbFV5MmVqc0xEbmFJZ0dKUitleTdNdk5qTnUxYWN0SE8zRXFMWEIwZzdick1DcWdBOGs9LS1GZFFIeXkyQ3F1MjZSa2pRMzAzZ1ZBPT0%3D--6bf5c10af1d0d49da7ab00a946a59b5a5879790b; path=/; secure; HttpOnly
+Status: 422 Unprocessable Entity
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Transfer-Encoding: chunked
+Vary: X-PJAX
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-GitHub-Request-Id: E005:13FD:9E7A4:11A2D3:5C91121D
+X-Request-Id: ed2e094a-5fe4-479f-a3f7-9e05cce565e1
+X-XSS-Protection: 1; mode=block
