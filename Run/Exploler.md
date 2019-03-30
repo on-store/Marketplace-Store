@@ -1,3 +1,8 @@
+<!DOCTYPEhtml>
+<p>WELCHOME</p>
+</div>
+<meta class="sugestion">
+<meta id="https://github.com">DAFTAR</a>
 query {
   repository(owner:"octocat", name:"Hello-World") {
     issues(last:20, states:CLOSED) {
